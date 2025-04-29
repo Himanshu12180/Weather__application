@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1705085708510-9c6bdcd95ed1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2V0aGVyfGVufDB8fDB8fHww");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: blur(1px);
+}
+.weather-app{
+    border: black 2px solid;
+    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    height: max-content;
+   
+    width: 30%;
+    width: max-content;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+.city-input{
+    border: 2px blue solid;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+    height: 50px;
+    width: max-content;
+    width: 235px;
+    width: max-content;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin-left: 10px;
+}
+.search-btn{
+    background-color:steelblue;
+    color: black;
+    border: none;
+    width: max-content;
+    width: 35px;
+    width: max-content;
+    height:45px;
+    border-radius: 10px; 
+    position: absolute;
+}
+.city-data-section{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.date{
+    margin-top: 10px;
+    border: 2px solid white;
+    margin: auto;
+    width: max-content;
+    width: 100px;
+    width: max-content;
+    border-radius: 10px;
+    
+}
+.temperature-info{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+.description-text{
+    font-size:25px;
+    justify-items: baseline;
+    text-align: center;
+}
+.temp{
+    font-size: 100px;
+}
+.additional-info{
+    background-color: rgba(128, 128, 128, 0.753) ;
+    border: 2px black solid;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: max-content;
+    width:110px ;
+    width: max-content;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.humidity-info{
+    background-color: rgba(128, 128, 128, 0.753) ;
+    border: 2px black solid;
+    border-radius: 10px;
+    text-align: center;
+    width: max-content;
+    width:110px ;
+    color: white;
+    justify-content: space-around;
+    padding: 10px;
+    margin-left: 20px;
+}
+.visibility-info{
+    background-color: rgba(128, 128, 128, 0.753) ;
+    border: 2px black solid;
+    border-radius: 10px;
+    text-align: center;
+    width: max-content;
+    width:110px ;
+    color: white;
+    justify-content: space-around;
+    padding: 10px;
+    margin-left: 20px;
+}
+.cover{
+    display: flex;
+
+}
